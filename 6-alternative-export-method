@@ -1,0 +1,14 @@
+//this method of exporting is called export as you go
+//you can export the function as you go
+
+module.exports.items = ['item1', 'item2'];
+const person = {
+    name: 'bob',
+}
+
+module.exports.singlePerson = person;
+
+// you can either use either of the synthax below to export the module. the choise is yours
+
+// module.exports.items = items;
+// module.exports = {items, singlePerson};
